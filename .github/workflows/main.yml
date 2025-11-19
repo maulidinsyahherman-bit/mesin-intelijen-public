@@ -19,8 +19,7 @@ jobs:
         python-version: '3.9'
 
     - name: Install Library
-      run: |
-        pip install requests pandas
+      run: pip install -r requirements.txt
 
     - name: Jalankan Script
       env:
