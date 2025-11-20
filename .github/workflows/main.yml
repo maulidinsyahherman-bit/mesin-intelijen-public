@@ -2,7 +2,7 @@ name: Jalankan Bot Harian
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Jalan SETIAP 15 menit, 24 jam nonstop
+    - cron: '*/30 * * * *' # Jalan SETIAP 30 menit, 24 jam nonstop
   workflow_dispatch:    # Tombol manual
 
 jobs:
